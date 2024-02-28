@@ -1,0 +1,13 @@
+site_name: No Clocks, LLC Operations Documentation
+
+docs_dir: docs
+site_dir: site
+
+theme:
+  name: material
+  palette:
+    primary: blue
+    accent: light blue
+  font:
+    text: 'Roboto'
+    code: 'Roboto Mono'
