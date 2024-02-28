@@ -8,6 +8,7 @@
 
 ### Documentation
 
+- Enhance docs
 - Dump various md docs
 - Create toolsREADME.md
 
