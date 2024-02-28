@@ -59,7 +59,7 @@ At “No Clocks, LLC”, our mission is to seamlessly integrate creativity, tech
 
 ### Principal Members
 
-- **James (“Jimmy”)Briggs** - Co-Owner
+- **James (“Jimmy”) Briggs** - Co-Owner
 - **Patrick Howard** - Co-Owner
 
 ### Legal Structure
