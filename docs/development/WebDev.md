@@ -1,4 +1,4 @@
-# Web Development Learning Checklist
+# Web Development
 
 ## Contents
 
@@ -14,7 +14,7 @@
   - [ ] `<style>` [Link](https://www.w3docs.com/learn-html/html-style-tag.html)
   - [ ] `<link>` [Link](https://www.w3docs.com/learn-html/html-link-tag.html)
   - [ ] `<meta>` [Link](https://www.w3docs.com/learn-html/html-meta-tag.html)
-  
+
 - [ ] HTML5 Structural / Semantic elements
   - [ ] `<article>` [Link](https://www.w3docs.com/learn-html/html-article-tag.html)
   - [ ] `<address>` [Link](https://www.w3docs.com/learn-html/html-address-tag.html)
@@ -56,7 +56,7 @@
   - [ ] `<fieldset>` [Link](https://www.w3docs.com/learn-html/html-fieldset-tag.html)
   - [ ] `<label>` [Link](https://www.w3docs.com/learn-html/html-label-tag.html)
   - [ ] `<legend>` [Link](https://www.w3docs.com/learn-html/html-legend-tag.html)
-    
+
 
 ## CSS
    - [ ] Adding a CSS stylesheet to an HTML page using `<link>`
@@ -93,9 +93,9 @@
      - [ ] absolute
      - [ ] fixed
    - [ ] Display [Article](https://css-tricks.com/almanac/properties/d/display/)
-     - [ ] block          
-     - [ ] inline          
-     - [ ] grid          
+     - [ ] block
+     - [ ] inline
+     - [ ] grid
      - [ ] none
    - [ ] class vs id [Article](https://css-tricks.com/the-difference-between-id-and-class/)
 
@@ -111,14 +111,14 @@
         - [ ] `let` [Video](https://egghead.io/lessons/javascript-the-let-keyword-in-es6?af=5buvlr)
         - [ ] `const` [Video](https://egghead.io/lessons/javascript-const-declarations-in-es6-es2015)
    - [ ] Data types [Article](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Data_structures)
-        - [ ] String 
+        - [ ] String
         - [ ] Boolean
-        - [ ] Number 
-        - [ ] null 
+        - [ ] Number
+        - [ ] null
         - [ ] undefined
         - [ ] Symbol [Video](https://youtu.be/4J5hnOCj69w)
    - [ ] `typeof` operator [Article](https://www.freecodecamp.org/news/javascript-data-types-typeof-explained/)
-   - [ ] String functions 
+   - [ ] String functions
         - [ ] `.concat` [Article](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/concat)
         - [ ] `length` [Article](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/length)
         - [ ] `toUpperCase` [Article](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/toUpperCase)
@@ -132,19 +132,19 @@
         - [ ] `-`
         - [ ] `/`
         - [ ] ` *`
-        - [ ] `++` 
+        - [ ] `++`
         - [ ] `--`
         - [ ] `%`
-    - [ ] Assignment Operators [ Article ](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Expressions_and_Operators#assignment_operators)    
+    - [ ] Assignment Operators [ Article ](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Expressions_and_Operators#assignment_operators)
         - [ ] `=` [Article](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Assignment)
     - [ ] `<`
-    - [ ] `>` 
+    - [ ] `>`
     - [ ] `<=`
-    - [ ] `>=` 
-    - [ ] `==` 
+    - [ ] `>=`
+    - [ ] `==`
     - [ ] `===`
-    - [ ] `&&` 
-    - [ ] `||` 
+    - [ ] `&&`
+    - [ ] `||`
     - [ ] `Ternary operators ? , :` [Article](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Conditional_Operator)
    - [ ] Loops [Article](https://www.freecodecamp.org/news/javascript-loops-explained-for-loop-for/)
      - [ ] `for` [Article](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/for)
@@ -156,7 +156,7 @@
     - [ ] Accessing elements [Article](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array#accessing_array_elements)
     - [ ] `length` [Article](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/length)
     - [ ] Array Helper Methods [Article](https://guptstagram.medium.com/es6-array-helper-methods-54bec9066b9c)  [Video](https://youtu.be/R8rmfD9Y5-c)
-    - [ ] Looping through elements 
+    - [ ] Looping through elements
         - [ ] `map` [Article](https://www.freecodecamp.org/news/javascript-map-how-to-use-the-js-map-function-array-method/)
         - [ ] `forEach` [Article](https://www.freecodecamp.org/news/javascript-foreach-how-to-loop-through-an-array-in-js/)
     - [ ] `slice` [Article](https://www.freecodecamp.org/news/lets-clear-up-the-confusion-around-the-slice-splice-split-methods-in-javascript-8ba3266c29ae/) [Video](https://youtu.be/t1qDSAUclzI)
@@ -176,7 +176,7 @@
      - [ ] Object destructuring [Article](https://dmitripavlutin.com/javascript-object-destructuring/)
      - [ ] `Object.keys` [Article](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/keys)
      - [ ] `Object.getOwnPropertyNames` [Article](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/getOwnPropertyNames)
-     - [ ] Looping through properties of an object 
+     - [ ] Looping through properties of an object
        - [ ] `for... of` [Article](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/for...of)
        - [ ] `for...in` [Article](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/for...in)
        - [ ] `forEach`, `.keys` [Article](https://masteringjs.io/tutorials/fundamentals/foreach-object)
@@ -210,9 +210,9 @@
    - [ ] `document.querySelector`
    - [ ] `document.querySelectorAll`
    - [ ] `.createElement`
-   - [ ] `.innerHTML` 
+   - [ ] `.innerHTML`
    - [ ] `.innerText`
-   - [ ] `.append()` 
+   - [ ] `.append()`
    - [ ] `.remove()`
    - [ ] `.appendChild`
    - [ ] `.style`
@@ -240,18 +240,18 @@
   - [ ] What is a domain name? [Video](https://www.youtube.com/watch?v=Y4cRx19nhJk&ab_channel=CreateaProWebsite)
   - [ ] What is DNS lookup? [Video](https://www.youtube.com/watch?v=Rck3BALhI5c&ab_channel=Techquickie)
   - [ ] What is web hosting? [Video](https://www.youtube.com/watch?v=H8oAvyqQwew&ab_channel=CreateaProWebsite)
-  - [ ] What is CORS? [Article](https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS) [Article](https://javascript.info/fetch-crossorigin)   
-  - [ ] ARIA - What is accessibility? [Article](https://developer.mozilla.org/en-US/docs/Learn/Accessibility/What_is_accessibility) [Video](https://www.youtube.com/watch?v=HtTyRajRuyY&list=PLNYkxOF6rcICWx0C9LVWWVqvHlYJyqw7g&ab_channel=GoogleChromeDevelopers)       
+  - [ ] What is CORS? [Article](https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS) [Article](https://javascript.info/fetch-crossorigin)
+  - [ ] ARIA - What is accessibility? [Article](https://developer.mozilla.org/en-US/docs/Learn/Accessibility/What_is_accessibility) [Video](https://www.youtube.com/watch?v=HtTyRajRuyY&list=PLNYkxOF6rcICWx0C9LVWWVqvHlYJyqw7g&ab_channel=GoogleChromeDevelopers)
 
 ## Step Up
 
-#### CSS 
+#### CSS
    - [ ] animations [Video](https://youtu.be/zHUpx90NerM)
      - [ ] transition property
      - [ ] `@keyframes`
-     - [ ] animation property - `name`, `duration`, `timing-function`, `delay`, `iteration-count`, `direction` 
-   - [ ] flexbox 
-   - [ ] grid 
+     - [ ] animation property - `name`, `duration`, `timing-function`, `delay`, `iteration-count`, `direction`
+   - [ ] flexbox
+   - [ ] grid
    - [ ] media query to build responsive sites
    - [ ] CSS Specificity [Article](https://css-tricks.com/specifics-on-css-specificity/)
 
@@ -304,7 +304,7 @@
 #### Debugging Tools
 - [ ] Browser Dev tools [Article](https://developer.mozilla.org/en-US/docs/Learn/Common_questions/What_are_browser_developer_tools)
     - [ ] Chrome Dev Tools [Video](https://www.youtube.com/watch?v=H0XScE08hy8&ab_channel=GoogleChromeDevelopers) [Video](https://www.youtube.com/watch?v=e1gAyQuIFQo&ab_channel=GoogleChromeDevelopers)
-    - [ ] Firefox Dev Tools [Video](https://www.youtube.com/watch?v=Sp9ZfSvpf7A&ab_channel=MozillaDeveloper)   
+    - [ ] Firefox Dev Tools [Video](https://www.youtube.com/watch?v=Sp9ZfSvpf7A&ab_channel=MozillaDeveloper)
 
 #### UX for Web Developers
 
@@ -326,7 +326,7 @@ UX designers use the following software for the designing. As a UI developer, yo
 
  4. **Consistency**
 
-As a web developer make sure that the designs have consistency in the size, colors, and UX. Eg: the font size and color of the headings on every page should be the same, the body's font size should be the same. 
+As a web developer make sure that the designs have consistency in the size, colors, and UX. Eg: the font size and color of the headings on every page should be the same, the body's font size should be the same.
 
 You should review the designs given by the designers to make sure the consistency is there.
 
@@ -345,13 +345,13 @@ It is important to have the wireframes to understand the flow of the user's jour
 
 ## Suggested learning process
 
-1. **SKILLS** Learn the fundamentals from a resource of your choice: 
+1. **SKILLS** Learn the fundamentals from a resource of your choice:
    1. HTML
    1. CSS
    1. JavaScript.
-1. **PROJECT** Build a portfolio web page using the skills you learnt so far - JS, HTML, CSS. The web page should have the following: 
-    1. Add your name, photo, bio using semantic HTML 
-    1. Setup sections for projects. We will fill these projects as we go. The projects will have an image, description and a link. Set these up with [lorem ipsum text](https://loremipsum.io/) for now. 
+1. **PROJECT** Build a portfolio web page using the skills you learnt so far - JS, HTML, CSS. The web page should have the following:
+    1. Add your name, photo, bio using semantic HTML
+    1. Setup sections for projects. We will fill these projects as we go. The projects will have an image, description and a link. Set these up with [lorem ipsum text](https://loremipsum.io/) for now.
 1. **SKILLS** [Learn git and version control.](https://youtu.be/8JJ101D3knE).
 1. **PROJECT**
    1. Add your portfolio to GitHub.
@@ -359,18 +359,18 @@ It is important to have the wireframes to understand the flow of the user's jour
 1. **SKILLS** Step up your JS and CSS knowledge
 1. **PROJECT** Make your portfolio mobile friendly and responsive.
 1. **PROJECT** Getting ready for job interviews
-    1. Practice interview questions on [InterviewCake](https://www.interviewcake.com/). 
+    1. Practice interview questions on [InterviewCake](https://www.interviewcake.com/).
    1. Practice interviews questions on [Leetcode](https://leetcode.com/). Start with easy and slowly work your way up.
 1. **SKILLS** Step up challenge - learn a front-end framework.
-   React, Vue and Angular are the top front-end frameworks in 2021. If you were to pick one, I would recommend [React](https://reactjs.org/). Lots of companies use React in production. 
-1. **PROJECT**: Implement the framework. - build an inspiration. Add this to your portfolio. Tasks: 
-    1. Fetch an API of your choice. 
-    2. Render data in your app. 
+   React, Vue and Angular are the top front-end frameworks in 2021. If you were to pick one, I would recommend [React](https://reactjs.org/). Lots of companies use React in production.
+1. **PROJECT**: Implement the framework. - build an inspiration. Add this to your portfolio. Tasks:
+    1. Fetch an API of your choice.
+    2. Render data in your app.
     3. Implement search functionality.
     4. Implement auto-complete functionality.
 1. **SKILLS** Step up challenge: Learn a library for the framework.
    1. Learn a state management library: Redux / React context
-    1. Learn a CSS library - SASS 
+    1. Learn a CSS library - SASS
 1. **PROJECT** Implement your next inspiration idea using the library. Add to your portfolio.
 3. **SKILLS** Learn a testing framework : Build test coverage. Add to your portfolio.
 4. **CAREER** Get a freelance job using your portfolio.

@@ -1,4 +1,4 @@
-# No Clocks, LLC Operations Documentation
+# Operations Documentation
 
 > This is the documentation for No Clocks, LLC's operations. It is a living document and will be updated as needed.
 

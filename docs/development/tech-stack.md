@@ -1,4 +1,4 @@
-# Tech
+# Tech Stack
 
 -   Server Side:
     -   Programming Languages:
@@ -38,4 +38,4 @@
 -   Compression
 -   Static Assets
 -   Lazy Load
--   
+-

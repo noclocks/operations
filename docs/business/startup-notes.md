@@ -1,4 +1,4 @@
-# Startup
+# Startup Notes
 
 ### Business Plan
 
@@ -54,7 +54,7 @@
     -   Unique Value Proposition + Vision
     -   Problem + Pain Points
     -   Target Market
-    -   Solution 
+    -   Solution
     -   Business Model
     -   Milestones
     -   Sales Strategy
@@ -78,4 +78,3 @@
 -   Develop content ideas and align them with “triggers” in your business plan
 -   Create a content calendar
 -   Measure Your Results
-

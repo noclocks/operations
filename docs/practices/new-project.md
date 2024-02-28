@@ -1,4 +1,4 @@
-# How We Start New Projects
+# New Projects
 
 > This is a guide to starting new projects at [Company Name]. It is intended to be a starting point for new projects, but should be adapted to fit the specific needs of each project.
 

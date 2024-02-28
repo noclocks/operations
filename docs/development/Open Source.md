@@ -1,1 +1,0 @@
-If you're in Windows, we recommend using @kirankotari's [`pyenv-win`](https://github.com/pyenv-win/pyenv-win) fork -- which does install native Windows Python versions.
