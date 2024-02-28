@@ -13,6 +13,7 @@
 
 ### Features
 
+- Add mkdocs
 - Add business plan draft and other various ops items
 
 ***
