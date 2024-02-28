@@ -1,0 +1,41 @@
+# Tech
+
+-   Server Side:
+    -   Programming Languages:
+        -   Python
+        -   JavaScript (Node.js)
+        -   etc.
+    -   Framework
+    -   Architecture
+        -   [The Twelve-Factor App](http://12factor.net/)
+        -   [Microservices](http://martinfowler.com/articles/microservices.html)
+        -   [Stream Processing, Event Sourcing, and CQRS](http://www.confluent.io/blog/making-sense-of-stream-processing/)
+    -   Scalability & Performance
+-   Client Side:
+    -   Native Apps, Cross-Platform Apps, and Web Apps
+        -   Languages:
+            -   Python
+            -   C#
+            -   etc.
+    -   Framework:
+        -   JS Framework
+    -   SEO
+        -   [Google Search Engine Optimization Starter Guide](https://static.googleusercontent.com/media/www.google.com/en//webmasters/docs/search-engine-optimization-starter-guide.pdf)
+        -   [Moz Beginner's Guide to SEO](https://moz.com/beginners-guide-to-seo)
+        -   [Search Engine Land’s Guide To SEO](http://searchengineland.com/guide/seo)
+    -   Meta Tags
+        -   [How to Use HTML Meta Tags](http://searchenginewatch.com/sew/how-to/2067564/how-to-use-html-meta-tags)
+        -   [Facebook Open Graph Markup](https://developers.facebook.com/docs/sharing/webmasters#markup)
+        -   [Twitter Cards](https://dev.twitter.com/cards/overview)
+        -   [Favicon Generator](http://realfavicongenerator.net/)
+    -   Terms & Conditions
+    -   Privacy Policy
+-   Developer Accounts
+    -   Google Developer
+    -   Windows App Developer
+-   CDN
+-   HTTP Caching
+-   Compression
+-   Static Assets
+-   Lazy Load
+-   
