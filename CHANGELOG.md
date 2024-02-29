@@ -6,8 +6,13 @@
 
 ## [Unreleased]
 
+### Configuration
+
+- Add site to gitignore
+
 ### Documentation
 
+- New docs
 - Enhance docs
 - Dump various md docs
 - Create toolsREADME.md
