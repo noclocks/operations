@@ -11,7 +11,7 @@
 **\$2,500-\$3,000**
 
 - \$2500-\$3000 for Initial Legacy Website Re-Design, Migration, and Enhancements
-  - Ground up re-do of website using new framework (React, TpeScript, Remix, etc.)
+  - Ground up re-do of website using new framework (React, TypeScript, Remix, etc.)
     - Modularized Components and Pages from Legacy HTML Markup
     - Improved Routing and Page Navigation
     - Code Cleanup, Refactoring, and Optimized Performance
