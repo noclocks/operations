@@ -1,0 +1,37 @@
+# Business Expense Categories
+
+-   Home Office Costs: https://www.irs.gov/businesses/small-businesses-self-employed/home-office-deduction
+    -   $5 per square foot
+
+-   Utilities
+    -   Electricity
+-   Legal
+-   Startup Expenses:
+    -   Marketing
+    -   Training
+    -   
+-   Office Supplies
+    -   Paper
+    -   Printer Ink
+    -   Janitorial and cleaning supplies
+    -   Computer Software and Subscriptions
+    -   Internet Hosting
+    -   Pens
+-   Advertising:
+    -   Google Ads
+    -   Email Marketing Services
+-   
+-   Website & Software:
+    -   Domain Name Server
+    -   Web Hosting
+    -   Maintenance
+-   Business Insurance
+    -   General Liability Premium
+    -   
+-   Education:
+    -   Classes and workshops intended to improve skills in your business’s field
+    -   Subscriptions to professional publications
+    -   Industry-related seminars, webinars, and retreats
+    -   Books
+    -   Online Course
+-   
