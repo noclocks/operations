@@ -12,6 +12,7 @@
 
 ### Documentation
 
+- Update & enhance README
 - New docs
 - Enhance docs
 - Dump various md docs
