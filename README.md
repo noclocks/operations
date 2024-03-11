@@ -3,6 +3,17 @@
 > [!NOTE]
 > This repository is a work in progress and is not yet complete.
 
+## Badges
+
+<!-- BADGES:Start -->
+
+[![Automate Changelog](https://github.com/noclocks/operations/actions/workflows/changelog.yml/badge.svg)](https://github.com/noclocks/operations/actions/workflows/changelog.yml)
+
+[![Publish Docs](https://github.com/noclocks/operations/actions/workflows/publish-docs.yml/badge.svg)](https://github.com/noclocks/operations/actions/workflows/publish-docs.yml)
+
+<!-- BADGES:End -->
+
+
 ## Contents
 
 - [Introduction](#introduction)
@@ -12,12 +23,12 @@
 
 ## Introduction
 
-This repository contains the operations documentation for No Clocks, LLC. 
+This repository contains the operations documentation for No Clocks, LLC.
 
 We believe that setting up a well-organized repository structure for our ongoing operations is crucial for startups, especially those in the technology services sector.
 A clear and logical structure helps streamline operations, improve collaboration, and ensure consistency across projects.
 
-By organizing our operations with this repository, we can create a centralized hub for all essential operational resources, 
+By organizing our operations with this repository, we can create a centralized hub for all essential operational resources,
 making it easier for our team to access information, collaborate effectively, and maintain consistency in processes and procedures.
 
 ## Documentation
