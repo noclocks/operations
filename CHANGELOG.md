@@ -8,10 +8,12 @@
 
 ### Configuration
 
+- Update gitignores
 - Add site to gitignore
 
 ### Documentation
 
+- Update docs
 - Update & enhance README
 - New docs
 - Enhance docs
