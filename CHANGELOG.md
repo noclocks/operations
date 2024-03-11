@@ -13,6 +13,7 @@
 
 ### Documentation
 
+- Update README
 - Update docs
 - Update & enhance README
 - New docs
