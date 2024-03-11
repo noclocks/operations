@@ -22,6 +22,7 @@
 
 ### Features
 
+- Add MkDocs GHA
 - Add mkdocs
 - Add business plan draft and other various ops items
 
