@@ -1,13 +1,125 @@
-site_name: No Clocks, LLC Operations Documentation
+site_name: No Clocks Operations
+site_description: Operations documentation for No Clocks, LLC.
+site_author: No Clocks, LLC
+site_url: https://docs.noclocks.dev/operations
 
 docs_dir: docs
 site_dir: site
 
+repo_url: https://github.com/noclocks/operations
+repo_name: noclocks/operations
+edit_uri: edit/main/docs/
+
+plugins:
+  - search
+  # - git-revision-date-localized:
+  #     enable_creation_date: true
+  # - git-committers:
+  #     repository: noclocks/cdn
+  #     branch: main
+  # - git-authors
+
+extra:
+  generator: false
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/noclocks
+    - icon: fontawesome/brands/twitter
+      link: https://twitter.com/noclocksdev
+    - icon: fontawesome/brands/linkedin
+      link: https://linkedin.com/company/noclocks
+    - icon: fontawesome/brands/youtube
+      link: https://youtube.com/noclocks
+    - icon: fontawesome/brands/facebook
+      link: https://facebook.com/noclocksdev
+    - icon: fontawesome/brands/slack
+      link: https://noclocks.slack.com
+    - icon: fontawesome/brands/instagram
+      link: https://instagram.com/noclocksdev
+    - icon: fontawesome/brands/docker
+      link: https://hub.docker.com/u/noclocks
+
+copyright: Copyright &copy; 2024 No Clocks, LLC
+
 theme:
   name: material
-  palette:
-    primary: blue
-    accent: light blue
+  logo: assets/img/logo.png
+  favicon: assets/img/logo.png
   font:
     text: 'Roboto'
     code: 'Roboto Mono'
+  features:
+    - navigation.instant
+    - navigation.instant.prefetch
+    - navigation.instant.progress
+    - navigation.tracking
+    - navigation.path
+    - navigation.prune
+    - navigation.indexes
+    - navigation.sections
+    - navigation.footer
+    - toc.follow
+    - toc.integrate
+    - search.suggest
+    - search.highlight
+    - search.share
+    - content.action.edit
+  icon:
+    repo: fontawesome/brands/git-alt
+  palette:
+    # Palette toggle for dark mode
+    - scheme: slate
+      primary: black
+      accent: cyan
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to Light Mode
+
+    # Palette toggle for light mode
+    - scheme: default
+      primary: white
+      accent: cyan
+      toggle:
+        icon: material/weather-night
+        name: Switch to Dark Mode
+
+nav:
+  - Home: index.md
+  - about.md
+  - Contact: contact.md
+  - License: license.md
+  - Business:
+    - Principles: business/principles.md
+    - 'Business Plan': business/business-plan.md
+    - Startup:
+      - 'Startup Checklist': business/startup/startup-checklist.md
+      - 'Startup One-Pager': business/startup/startup-one-pager.md
+      - 'Startup Notes': business/startup/startup-notes.md
+    - Design:
+      - 'Brand Kit': business/design/brand-kit.md
+      - Logo: business/design/logo-config.md
+    - Finance:
+      - 'Financial Strategy': business/finance/financial-strategy-guide.md
+      - 'Pricing': business/finance/pricing.md
+      - Funding: business/finance/funding.md
+      - 'Startup Costs': business/finance/startup-costs.md
+      - 'Expense Categories': business/finance/business-expense-categories.md
+      - 'Marketing Expenses': business/finance/marketing-expenses.md
+    - Marketing:
+      - business/marketing/index.md
+    - Legal:
+      - business/legal/index.md
+  - Development:
+    - Languages: dev/languages.md
+    - Frameworks: dev/frameworks.md
+    - 'Operating Systems': dev/os.md
+    - Documentation: dev/documentation.md
+    - Databases: dev/databases.md
+    - Containers: dev/containers.md
+    - 'Version Control': dev/vc.md
+    - DevOps: dev/devops.md
+    - Cloud: dev/cloud.md
+    - 'Infrastructure as Code': dev/iac.md
+    - APIs: dev/apis.md
+    - 'Developer Experience (DevX)': dev/devx.md
+    - 'User Experience (UX)': dev/ux.md
