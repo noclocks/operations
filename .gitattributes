@@ -4,7 +4,7 @@
 *          text=auto
 
 # Ignore HTML (linguist)
-*.html     linguist-generated
+*.html     linguist-vendored
 
 
 #
