@@ -3,6 +3,10 @@
 # Auto detect text files and perform LF normalization
 *          text=auto
 
+# Ignore HTML (linguist)
+*.html     linguist-generated
+
+
 #
 # The above will handle all files NOT found below
 #
