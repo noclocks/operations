@@ -8,6 +8,7 @@
 
 ### Configuration
 
+- Update .gitattributes to ignore HTML
 - Update gitignores
 - Add site to gitignore
 
