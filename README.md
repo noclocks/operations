@@ -100,4 +100,4 @@ Some areas of primary interest are:
 
 ## Contact
 
-For questions or comments, please contact [No Clocks, LLC](https://www.noclocks.com).
+For questions or comments, please contact contact@noclocks.dev.
