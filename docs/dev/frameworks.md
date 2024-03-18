@@ -11,7 +11,7 @@ Below is a (non-exhaustive) list of the frameworks we use:
 - R:
   - [Shiny](https://shiny.rstudio.com/)
   - [Plumber](https://www.rplumber.io/)
-- JavaScript:
+- JavaScript/Typescript:
   - [React](https://reactjs.org/)
   - [Remix](https://remix.run/)
   - [Next.js](https://nextjs.org/)
@@ -32,6 +32,7 @@ Below is a (non-exhaustive) list of the frameworks we use:
   - [Flexbox](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Flexible_Box_Layout/Basic_Concepts_of_Flexbox)
   - [Fluent UI](https://developer.microsoft.com/en-us/fluentui)
   - [Semantic UI](https://semantic-ui.com/)
+  - [StyleX](https://stylexjs.com)
 - ORM:
   - [SQLAlchemy](https://www.sqlalchemy.org/)
   - [Prisma](https://www.prisma.io/)
@@ -58,3 +59,5 @@ Below is a (non-exhaustive) list of the frameworks we use:
   - [pkgdown](https://pkgdown.r-lib.org/)
   - [blogdown](https://bookdown.org/yihui/blogdown/)
   - [rmarkdown](https://rmarkdown.rstudio.com/)
+  - [Quarto](https://quarto.org/)
+  - [Typst](https://github.com/typst/typst)
