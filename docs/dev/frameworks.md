@@ -25,6 +25,8 @@ Below is a (non-exhaustive) list of the frameworks we use:
   - [PowerShell](https://docs.microsoft.com/en-us/powershell/)
   - [Azure Functions](https://docs.microsoft.com/en-us/azure/azure-functions/)
 - CSS:
+  - [Pandas](https://panda-css.com/)
+  - [PostCSS](https://github.com/postcss/postcss)
   - [Tailwind CSS](https://tailwindcss.com/)
   - [Bootstrap](https://getbootstrap.com/)
   - [Bulma](https://bulma.io/)
