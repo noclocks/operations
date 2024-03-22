@@ -14,6 +14,7 @@
 
 ### Documentation
 
+- Dump local md docs and notes
 - Update README
 - Update docs
 - Update & enhance README
