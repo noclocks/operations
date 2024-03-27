@@ -52,3 +52,15 @@ $RECYCLE.BIN/
 
 # Windows shortcuts
 *.lnk
+docs/documents/contracts/microbe-contract_files/libs/bootstrap/bootstrap-icons.css
+docs/documents/contracts/microbe-contract_files/libs/bootstrap/bootstrap-icons.woff
+docs/documents/contracts/microbe-contract_files/libs/bootstrap/bootstrap.min.css
+docs/documents/contracts/microbe-contract_files/libs/bootstrap/bootstrap.min.js
+docs/documents/contracts/microbe-contract_files/libs/clipboard/clipboard.min.js
+docs/documents/contracts/microbe-contract_files/libs/quarto-html/anchor.min.js
+docs/documents/contracts/microbe-contract_files/libs/quarto-html/popper.min.js
+docs/documents/contracts/microbe-contract_files/libs/quarto-html/quarto-syntax-highlighting.css
+docs/documents/contracts/microbe-contract_files/libs/quarto-html/quarto.js
+docs/documents/contracts/microbe-contract_files/libs/quarto-html/tippy.css
+docs/documents/contracts/microbe-contract_files/libs/quarto-html/tippy.umd.min.js
+docs/documents/contracts/microbe-contract.html
