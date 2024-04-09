@@ -14,6 +14,7 @@
 
 ### Documentation
 
+- Update index.md
 - Add more docs
 - Dump local md docs and notes
 - Update README
