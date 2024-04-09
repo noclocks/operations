@@ -38,3 +38,7 @@ For any questions or concerns, please contact us at [support@noclocks.dev](mailt
 
 - [Jimmy Briggs](https://github.com/jimbrig): Co-Founder | CTO | Lead Developer
 - [Patrick Howard](https://github.com/phoward38): Co-Founder | CEO | Lead Developer
+
+***
+
+No Clocks, LLC
