@@ -89,26 +89,45 @@ nav:
   - Contact: contact.md
   - License: license.md
   - Business:
-    - Principles: business/principles.md
     - 'Business Plan': business/business-plan.md
+    - Principles: business/principles.md
     - Startup:
-      - 'Startup Checklist': business/startup/startup-checklist.md
-      - 'Startup One-Pager': business/startup/startup-one-pager.md
-      - 'Startup Notes': business/startup/startup-notes.md
-    - Design:
-      - 'Brand Kit': business/design/brand-kit.md
-      - Logo: business/design/logo-config.md
-    - Finance:
-      - 'Financial Strategy': business/finance/financial-strategy-guide.md
-      - 'Pricing': business/finance/pricing.md
-      - Funding: business/finance/funding.md
-      - 'Startup Costs': business/finance/startup-costs.md
-      - 'Expense Categories': business/finance/business-expense-categories.md
-      - 'Marketing Expenses': business/finance/marketing-expenses.md
-    - Marketing:
-      - business/marketing/index.md
-    - Legal:
-      - business/legal/index.md
+      - 'Startup Checklist': startup/startup-checklist.md
+      - 'Startup One-Pager': startup/startup-one-pager.md
+      - 'Startup Notes': startup/startup-notes.md
+  - Design:
+    - design/index.md
+    - Brand:
+      - design/brand.md
+      - 'Brand Kit': design/brand-kit.md
+      - 'Brand Book': design/brandbook.md
+    - Colors: brand/colors.md
+    - Logo: 
+      - design/logo.md
+      - 'Logo Configuration': design/logo-config.md
+    - 'Brand Assets': design/static-assets.md
+    - Typography: design/typography.md
+    - 'Web Design': design/webdesign.md
+  - Finance:
+    - finance/index.md
+    - 'Financial Strategy': finance/financial-strategy-guide.md
+    - 'Pricing': finance/pricing.md
+    - 'Financial Systems': finance/systems.md
+    - 'Tax Deductions': finance/tax-deductions.md
+    - Funding: finance/funding.md
+    - 'Startup Costs': finance/startup-costs.md
+    - 'Expense Categories': finance/business-expense-categories.md
+    - 'Marketing Expenses': finance/marketing-expenses.md
+    - 'Sales': finance/sales.md
+    - QuickBooks: finance/quickbooks.md
+    - Relay: finance/relay.md
+  - Marketing:
+    - CRM: marketing/crm.md
+    - 'Email Marketing': marketing/email-services.md
+    - 'Google Adwards': marketing/google-ads.md
+    - 'Social Media': marketing/social.md
+  - Legal:
+    - legal/index.md
   - Development:
     - Languages: dev/languages.md
     - Frameworks: dev/frameworks.md
@@ -123,3 +142,9 @@ nav:
     - APIs: dev/apis.md
     - 'Developer Experience (DevX)': dev/devx.md
     - 'User Experience (UX)': dev/ux.md
+  - Operations:
+    - ops/index.md
+    - ops/analytics.md
+    - ops/roles-and-responsibilities.md
+    - ops/skills-inventory.md
+
