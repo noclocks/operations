@@ -1,0 +1,2391 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="Operations documentation for No Clocks, LLC.">
+      
+      
+        <meta name="author" content="No Clocks, LLC">
+      
+      
+        <link rel="canonical" href="https://docs.noclocks.dev/operations/dev/frontend/htmltags/">
+      
+      
+      
+      
+      <link rel="icon" href="../../../assets/img/logo.png">
+      <meta name="generator" content="mkdocs-1.5.3, mkdocs-material-9.5.17">
+    
+    
+      
+        <title>Web Development - No Clocks Operations</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../../assets/stylesheets/main.bcfcd587.min.css">
+      
+        
+        <link rel="stylesheet" href="../../../assets/stylesheets/palette.06af60db.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("../../..",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="slate" data-md-color-primary="black" data-md-color-accent="cyan">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#web-development" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../../.." title="No Clocks Operations" class="md-header__button md-logo" aria-label="No Clocks Operations" data-md-component="logo">
+      
+  <img src="../../../assets/img/logo.png" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2Z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            No Clocks Operations
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Web Development
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="slate" data-md-color-primary="black" data-md-color-accent="cyan"  aria-label="Switch to Light Mode"  type="radio" name="__palette" id="__palette_0">
+    
+      <label class="md-header__button md-icon" title="Switch to Light Mode" for="__palette_1" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 7a5 5 0 0 1 5 5 5 5 0 0 1-5 5 5 5 0 0 1-5-5 5 5 0 0 1 5-5m0 2a3 3 0 0 0-3 3 3 3 0 0 0 3 3 3 3 0 0 0 3-3 3 3 0 0 0-3-3m0-7 2.39 3.42C13.65 5.15 12.84 5 12 5c-.84 0-1.65.15-2.39.42L12 2M3.34 7l4.16-.35A7.2 7.2 0 0 0 5.94 8.5c-.44.74-.69 1.5-.83 2.29L3.34 7m.02 10 1.76-3.77a7.131 7.131 0 0 0 2.38 4.14L3.36 17M20.65 7l-1.77 3.79a7.023 7.023 0 0 0-2.38-4.15l4.15.36m-.01 10-4.14.36c.59-.51 1.12-1.14 1.54-1.86.42-.73.69-1.5.83-2.29L20.64 17M12 22l-2.41-3.44c.74.27 1.55.44 2.41.44.82 0 1.63-.17 2.37-.44L12 22Z"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="default" data-md-color-primary="white" data-md-color-accent="cyan"  aria-label="Switch to Dark Mode"  type="radio" name="__palette" id="__palette_1">
+    
+      <label class="md-header__button md-icon" title="Switch to Dark Mode" for="__palette_0" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="m17.75 4.09-2.53 1.94.91 3.06-2.63-1.81-2.63 1.81.91-3.06-2.53-1.94L12.44 4l1.06-3 1.06 3 3.19.09m3.5 6.91-1.64 1.25.59 1.98-1.7-1.17-1.7 1.17.59-1.98L15.75 11l2.06-.05L18.5 9l.69 1.95 2.06.05m-2.28 4.95c.83-.08 1.72 1.1 1.19 1.85-.32.45-.66.87-1.08 1.27C15.17 23 8.84 23 4.94 19.07c-3.91-3.9-3.91-10.24 0-14.14.4-.4.82-.76 1.27-1.08.75-.53 1.93.36 1.85 1.19-.27 2.86.69 5.83 2.89 8.02a9.96 9.96 0 0 0 8.02 2.89m-1.64 2.02a12.08 12.08 0 0 1-7.8-3.47c-2.17-2.19-3.33-5-3.49-7.82-2.81 3.14-2.7 7.96.31 10.98 3.02 3.01 7.84 3.12 10.98.31Z"/></svg>
+      </label>
+    
+  
+</form>
+      
+    
+    
+      <script>var media,input,key,value,palette=__md_get("__palette");if(palette&&palette.color){"(prefers-color-scheme)"===palette.color.media&&(media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']"),palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent"));for([key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+      </label>
+      <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+          <a href="javascript:void(0)" class="md-search__icon md-icon" title="Share" aria-label="Share" data-clipboard data-clipboard-text="" data-md-component="search-share" tabindex="-1">
+            
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M18 16.08c-.76 0-1.44.3-1.96.77L8.91 12.7c.05-.23.09-.46.09-.7 0-.24-.04-.47-.09-.7l7.05-4.11c.54.5 1.25.81 2.04.81a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3c0 .24.04.47.09.7L8.04 9.81C7.5 9.31 6.79 9 6 9a3 3 0 0 0-3 3 3 3 0 0 0 3 3c.79 0 1.5-.31 2.04-.81l7.12 4.15c-.05.21-.08.43-.08.66 0 1.61 1.31 2.91 2.92 2.91 1.61 0 2.92-1.3 2.92-2.91A2.92 2.92 0 0 0 18 16.08Z"/></svg>
+          </a>
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41Z"/></svg>
+        </button>
+      </nav>
+      
+        <div class="md-search__suggest" data-md-component="search-suggest"></div>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+      <div class="md-header__source">
+        <a href="https://github.com/noclocks/operations" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2023 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81z"/></svg>
+  </div>
+  <div class="md-source__repository">
+    noclocks/operations
+  </div>
+</a>
+      </div>
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+  
+
+<nav class="md-nav md-nav--primary md-nav--integrated" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../../.." title="No Clocks Operations" class="md-nav__button md-logo" aria-label="No Clocks Operations" data-md-component="logo">
+      
+  <img src="../../../assets/img/logo.png" alt="logo">
+
+    </a>
+    No Clocks Operations
+  </label>
+  
+    <div class="md-nav__source">
+      <a href="https://github.com/noclocks/operations" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2023 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81z"/></svg>
+  </div>
+  <div class="md-source__repository">
+    noclocks/operations
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../.." class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Home
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../about/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    About
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../contact/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Contact
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../license/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    License
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+    
+    
+      
+        
+        
+      
+    
+    
+      
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5" >
+        
+          
+          <label class="md-nav__link" for="__nav_5" id="__nav_5_label" tabindex="">
+            
+  
+  <span class="md-ellipsis">
+    Business
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5">
+            <span class="md-nav__icon md-icon"></span>
+            Business
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../business/business-plan/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Business Plan
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../business/principles/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Principles
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+    
+    
+      
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+    <a href="../../../startup/startup-checklist/" class="md-nav__link">
+      
+  
+  <span class="md-ellipsis">
+    Startup
+  </span>
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+      
+        
+        
+      
+    
+    
+      
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_6" >
+        
+          
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../../../design/" class="md-nav__link ">
+              
+  
+  <span class="md-ellipsis">
+    Design
+  </span>
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_6" id="__nav_6_label" tabindex="">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_6_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_6">
+            <span class="md-nav__icon md-icon"></span>
+            Design
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+    
+    
+      
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+    <a href="../../../design/brand/" class="md-nav__link">
+      
+  
+  <span class="md-ellipsis">
+    Brand
+  </span>
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../brand/colors.md" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Colors
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+    
+    
+      
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+    <a href="../../../design/logo/" class="md-nav__link">
+      
+  
+  <span class="md-ellipsis">
+    Logo
+  </span>
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../design/static-assets/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Brand Assets
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../design/typography/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Typography
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../design/webdesign/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Web Design
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+      
+        
+        
+      
+    
+    
+      
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_7" >
+        
+          
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../../../finance/" class="md-nav__link ">
+              
+  
+  <span class="md-ellipsis">
+    Finance
+  </span>
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_7" id="__nav_7_label" tabindex="">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_7_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_7">
+            <span class="md-nav__icon md-icon"></span>
+            Finance
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../finance/financial-strategy-guide/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Financial Strategy
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../finance/pricing/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Pricing
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../finance/systems/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Financial Systems
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../finance/tax-deductions/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Tax Deductions
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../finance/funding/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Funding
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../finance/startup-costs/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Startup Costs
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../finance/business-expense-categories/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Expense Categories
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../finance/marketing-expenses/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Marketing Expenses
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../finance/sales/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Sales
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../finance/quickbooks/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    QuickBooks
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../finance/relay/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Relay
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+      
+        
+        
+      
+    
+    
+      
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_8" >
+        
+          
+          <label class="md-nav__link" for="__nav_8" id="__nav_8_label" tabindex="">
+            
+  
+  <span class="md-ellipsis">
+    Marketing
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_8_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_8">
+            <span class="md-nav__icon md-icon"></span>
+            Marketing
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../marketing/crm/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    CRM
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../marketing/email-services/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Email Marketing
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../marketing/google-ads/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Google Adwards
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../marketing/social/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Social Media
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+    
+    
+      
+        
+        
+      
+    
+    
+      
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_9" >
+        
+          
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../../../legal/" class="md-nav__link ">
+              
+  
+  <span class="md-ellipsis">
+    Legal
+  </span>
+  
+
+            </a>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_9_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_9">
+            <span class="md-nav__icon md-icon"></span>
+            Legal
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+      
+        
+        
+      
+    
+    
+      
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_10" >
+        
+          
+          <label class="md-nav__link" for="__nav_10" id="__nav_10_label" tabindex="">
+            
+  
+  <span class="md-ellipsis">
+    Development
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_10_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_10">
+            <span class="md-nav__icon md-icon"></span>
+            Development
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../languages/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Languages
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../frameworks/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Frameworks
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../os/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Operating Systems
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../documentation/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Documentation
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../databases/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Databases
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../containers/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Containers
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../vc/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Version Control
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../devops/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    DevOps
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../cloud/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Cloud
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../iac/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Infrastructure as Code
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../apis/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    APIs
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../devx/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Developer Experience (DevX)
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../ux/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    User Experience (UX)
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+      
+        
+        
+      
+    
+    
+      
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_11" >
+        
+          
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../../../ops/" class="md-nav__link ">
+              
+  
+  <span class="md-ellipsis">
+    Operations
+  </span>
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_11" id="__nav_11_label" tabindex="">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_11_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_11">
+            <span class="md-nav__icon md-icon"></span>
+            Operations
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../ops/analytics/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Analytics Tools
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../ops/roles-and-responsibilities/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Roles and Responsibilities
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../ops/skills-inventory/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Skills Inventory
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+  
+    <a href="https://github.com/noclocks/operations/edit/main/docs/dev/frontend/htmltags.md" title="Edit this page" class="md-content__button md-icon">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M10 20H6V4h7v5h5v3.1l2-2V8l-6-6H6c-1.1 0-2 .9-2 2v16c0 1.1.9 2 2 2h4v-2m10.2-7c.1 0 .3.1.4.2l1.3 1.3c.2.2.2.6 0 .8l-1 1-2.1-2.1 1-1c.1-.1.2-.2.4-.2m0 3.9L14.1 23H12v-2.1l6.1-6.1 2.1 2.1Z"/></svg>
+    </a>
+  
+  
+
+
+<h1 id="web-development">Web Development</h1>
+<h2 id="contents">Contents</h2>
+<div class="toc">
+<ul>
+<li><a href="#web-development">Web Development</a><ul>
+<li><a href="#contents">Contents</a></li>
+<li><a href="#html">HTML</a></li>
+<li><a href="#css">CSS</a></li>
+<li><a href="#javascript">JavaScript</a><ul>
+<li><a href="#fundamentals">Fundamentals</a></li>
+<li><a href="#web-page-and-javascript">Web page and JavaScript</a></li>
+<li><a href="#web-fundamentals">Web fundamentals</a></li>
+</ul>
+</li>
+<li><a href="#step-up">Step Up</a><ul>
+<li><a href="#css_1">CSS</a></li>
+<li><a href="#javascript_1">JavaScript</a></li>
+<li><a href="#react">React</a></li>
+<li><a href="#front-end-library">Front end library:</a></li>
+<li><a href="#apis">APIs</a></li>
+<li><a href="#debugging-tools">Debugging Tools</a></li>
+<li><a href="#ux-for-web-developers">UX for Web Developers</a></li>
+</ul>
+</li>
+<li><a href="#suggested-learning-process">Suggested learning process</a></li>
+</ul>
+</li>
+</ul>
+</div>
+<h2 id="html"><a href="https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/HTML_basics">HTML</a></h2>
+<ul>
+<li>[ ] HTML main tags <a href="https://www.youtube.com/playlist?list=PLblA84xge2_xNtaFnZhefjFbnDrpySKD3">Playlist</a></li>
+<li>[ ] <code>&lt;html&gt;</code> <a href="https://www.w3docs.com/learn-html/html-html-tag.html">Link</a></li>
+<li>[ ] <code>&lt;head&gt;</code> <a href="https://www.w3docs.com/learn-html/html-head-tag.html">Link</a></li>
+<li>[ ] <code>&lt;body&gt;</code> <a href="https://www.w3docs.com/learn-html/html-body-tag.html">Link</a></li>
+<li>[ ] <code>&lt;script&gt;</code> <a href="https://www.w3docs.com/learn-html/html-script-tag.html">Link</a></li>
+<li>[ ] <code>&lt;style&gt;</code> <a href="https://www.w3docs.com/learn-html/html-style-tag.html">Link</a></li>
+<li>[ ] <code>&lt;link&gt;</code> <a href="https://www.w3docs.com/learn-html/html-link-tag.html">Link</a></li>
+<li>
+<p>[ ] <code>&lt;meta&gt;</code> <a href="https://www.w3docs.com/learn-html/html-meta-tag.html">Link</a></p>
+</li>
+<li>
+<p>[ ] HTML5 Structural / Semantic elements</p>
+</li>
+<li>[ ] <code>&lt;article&gt;</code> <a href="https://www.w3docs.com/learn-html/html-article-tag.html">Link</a></li>
+<li>[ ] <code>&lt;address&gt;</code> <a href="https://www.w3docs.com/learn-html/html-address-tag.html">Link</a></li>
+<li>[ ] <code>&lt;aside&gt;</code> <a href="https://www.w3docs.com/learn-html/html-aside-tag.html">Link</a></li>
+<li>[ ] <code>&lt;dialog&gt;</code> <a href="https://www.w3docs.com/learn-html/html-dialog-tag.html">Link</a></li>
+<li>[ ] <code>&lt;details&gt;</code> <a href="https://www.w3docs.com/learn-html/html-details-tag.html">Link</a></li>
+<li>[ ] <code>&lt;figure&gt;</code> <a href="https://www.w3docs.com/learn-html/html-figure-tag.html">Link</a></li>
+<li>[ ] <code>&lt;main&gt;</code> <a href="https://www.w3docs.com/learn-html/html-main-tag.html">Link</a></li>
+<li>[ ] <code>&lt;nav&gt;</code> <a href="https://www.w3docs.com/learn-html/html-nav-tag.html">Link</a></li>
+<li>[ ] <code>&lt;header&gt;</code> <a href="https://www.w3docs.com/learn-html/html-header-tag.html">Link</a></li>
+<li>[ ] <code>&lt;footer&gt;</code> <a href="https://www.w3docs.com/learn-html/html-footer-tag.html">Link</a></li>
+<li>
+<p>[ ] <code>&lt;summary&gt;</code> <a href="https://www.w3docs.com/learn-html/html-summary-tag.html">Link</a></p>
+</li>
+<li>
+<p>[ ] HTML Elements and their attributes</p>
+</li>
+<li>[ ] Documents <code>&lt;!DOCTYPE&gt;</code> <a href="https://www.w3docs.com/learn-html/html-doctype-declaration.html">Link</a></li>
+<li>[ ] Headings <code>&lt;h1&gt; - &lt;h6&gt;</code> <a href="https://www.w3docs.com/learn-html/html-h1-h6-tags.html">Link</a></li>
+<li>[ ] Paragraph <code>&lt;p&gt;</code> <a href="https://www.w3docs.com/learn-html/html-p-tag.html">Link</a></li>
+<li>[ ] Lists <code>&lt;li&gt;, &lt;ul&gt;, &lt;dl&gt;</code> <a href="https://www.w3docs.com/learn-html/html-lists.html">Link</a></li>
+<li>[ ] Links <code>&lt;a&gt;</code> <a href="https://www.w3docs.com/learn-html/html-a-tag.html">Link</a></li>
+<li>[ ] Images <code>&lt;img&gt;</code> <a href="https://www.w3docs.com/learn-html/html-images.html">Link</a></li>
+<li>
+<p>[ ] Table <code>&lt;table&gt;</code><a href="https://www.w3docs.com/learn-html/html-table.html">Link</a></p>
+</li>
+<li>
+<p>[ ] HTML Formatting</p>
+</li>
+<li>[ ] <code>&lt;b&gt;</code> - Bold text <a href="https://www.w3docs.com/learn-html/html-b-tag.html">Link</a></li>
+<li>[ ] <code>&lt;strong&gt;</code> - Important text <a href="https://www.w3docs.com/learn-html/html-strong-tag.html">Link</a></li>
+<li>[ ] <code>&lt;small&gt;</code> - Smaller text</li>
+<li>[ ] <code>&lt;i&gt;</code> - Italic text <a href="https://www.w3docs.com/learn-html/html-i-tag.html">Link</a></li>
+<li>[ ] <code>&lt;em&gt;</code> - Emphasized text <a href="https://www.w3docs.com/learn-html/html-em-tag.html">Link</a></li>
+<li>[ ] <code>&lt;sub&gt;</code> - Subscript <a href="https://www.w3docs.com/learn-html/html-sub-tag.html">Link</a></li>
+<li>[ ] <code>&lt;sup&gt;</code> - superscript <a href="https://www.w3docs.com/learn-html/html-sup-tag.html">Link</a></li>
+<li>[ ] <code>&lt;pre&gt;</code> - preformatted text <a href="https://www.w3docs.com/learn-html/html-pre-tag.html">Link</a></li>
+<li>[ ] HTML Comments <code>&lt;!-- --&gt;</code> <a href="https://www.w3docs.com/learn-html/html-comments.html">Link</a></li>
+<li>[ ] HTML forms <a href="https://www.w3docs.com/learn-html/html-form-tag.html">Link</a><ul>
+<li>[ ] <code>&lt;input&gt;</code> <a href="https://www.w3docs.com/learn-html/html-input-tag.html">Link</a></li>
+</ul>
+</li>
+<li>[ ] <code>&lt;textarea&gt;</code> <a href="https://www.w3docs.com/learn-html/html-textarea-tag.html">Link</a></li>
+<li>[ ] <code>&lt;button&gt;</code> <a href="https://www.w3docs.com/learn-html/html-button-tag.html">Link</a></li>
+<li>[ ] <code>&lt;select&gt;</code> <a href="https://www.w3docs.com/learn-html/html-select-tag.html">Link</a></li>
+<li>[ ] <code>&lt;option&gt;</code> <a href="https://www.w3docs.com/learn-html/html-option-tag.html">Link</a></li>
+<li>[ ] <code>&lt;fieldset&gt;</code> <a href="https://www.w3docs.com/learn-html/html-fieldset-tag.html">Link</a></li>
+<li>[ ] <code>&lt;label&gt;</code> <a href="https://www.w3docs.com/learn-html/html-label-tag.html">Link</a></li>
+<li>[ ] <code>&lt;legend&gt;</code> <a href="https://www.w3docs.com/learn-html/html-legend-tag.html">Link</a></li>
+</ul>
+<h2 id="css">CSS</h2>
+<ul>
+<li>[ ] Adding a CSS stylesheet to an HTML page using <code>&lt;link&gt;</code></li>
+<li>[ ] CSS Selectors <a href="https://css-tricks.com/how-css-selectors-work/">Article</a> <a href="https://youtu.be/qj20o5UQ3qI">Video</a></li>
+<li>[ ] Color <a href="https://css-tricks.com/almanac/properties/c/color/">Article</a><ul>
+<li>[ ] using hex eg: <code>#ff0000</code></li>
+<li>[ ] rgb eg: <code>rgb(0,0,255)</code></li>
+<li>[ ] common color names eg: <code>red, pink, brown</code></li>
+</ul>
+</li>
+<li>[ ] Font <a href="https://css-tricks.com/almanac/properties/f/font/">Article</a><ul>
+<li>[ ] Family</li>
+<li>[ ] Size</li>
+<li>[ ] Weight</li>
+</ul>
+</li>
+<li>[ ] Text-decoration <a href="https://css-tricks.com/almanac/properties/t/text-decoration/">Article</a></li>
+<li>[ ] Text-transform <a href="https://css-tricks.com/almanac/properties/t/text-transform/">Article</a></li>
+<li>[ ] Line-height <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/line-height">Article</a></li>
+<li>[ ] Letter-spacing <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/letter-spacing">Article</a></li>
+<li>[ ] Word-spacing <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/word-spacing">Article</a></li>
+<li>[ ] Background-color <a href="https://cssreference.io/property/background-color/">Article</a></li>
+<li>[ ] Background-image <a href="https://cssreference.io/property/background-image/">Article</a></li>
+<li>[ ] Margin <a href="https://css-tricks.com/almanac/properties/m/margin/">Article</a> <a href="https://cssreference.io/property/margin/">Article</a></li>
+<li>[ ] Padding <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/padding">Article</a> <a href="https://cssreference.io/property/padding/">Article</a></li>
+<li>[ ] Border <a href="https://css-tricks.com/almanac/properties/b/border/">Article</a></li>
+<li>[ ] Width <a href="https://css-tricks.com/almanac/properties/w/width/">Article</a></li>
+<li>[ ] Height <a href="https://css-tricks.com/almanac/properties/h/height/">Article</a></li>
+<li>[ ] percentage, pixel, em <a href="https://youtu.be/fi81bovqxXI">Video</a></li>
+<li>[ ] Box model <a href="https://css-tricks.com/the-css-box-model/">Article</a> <a href="https://youtu.be/M1xEi_BBW1I">Video</a>
+        - [ ] list-style <a href="https://css-tricks.com/almanac/properties/l/list-style/">Article</a></li>
+<li>[ ] Pseudo class <a href="https://css-tricks.com/pseudo-class-selectors/">Article</a><ul>
+<li>[ ] hover</li>
+<li>[ ] active</li>
+<li>[ ] visited</li>
+</ul>
+</li>
+<li>[ ] Position <a href="https://css-tricks.com/almanac/properties/p/position/">Article</a> <a href="https://youtu.be/gD3G67oPg-w">Video</a><ul>
+<li>[ ] relative</li>
+<li>[ ] absolute</li>
+<li>[ ] fixed</li>
+</ul>
+</li>
+<li>[ ] Display <a href="https://css-tricks.com/almanac/properties/d/display/">Article</a><ul>
+<li>[ ] block</li>
+<li>[ ] inline</li>
+<li>[ ] grid</li>
+<li>[ ] none</li>
+</ul>
+</li>
+<li>[ ] class vs id <a href="https://css-tricks.com/the-difference-between-id-and-class/">Article</a></li>
+</ul>
+<h2 id="javascript">JavaScript</h2>
+<h4 id="fundamentals">Fundamentals</h4>
+<ul>
+<li>[ ] JavaScript introduction <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Introduction#what_is_javascript">Article</a> <a href="https://youtu.be/papg2tsoFzg">Video</a></li>
+<li>[ ] Adding JavaScript to an HTML page using <code>script</code> <a href="https://www.digitalocean.com/community/tutorials/html-script-tag">Article</a></li>
+<li>[ ] <code>console.log</code> <a href="https://www.freecodecamp.org/news/javascript-console-log-example-how-to-print-to-the-console-in-js/">Article</a></li>
+<li>[ ] Comments <a href="https://stackabuse.com/commenting-code-in-javascript-types-and-best-practices/">Article</a></li>
+<li>[ ] Variables <a href="https://www.freecodecamp.org/news/var-let-and-const-whats-the-difference">Article</a> <a href="https://egghead.io/lessons/javascript-working-with-var-let-const-and-block-scopes?af=5buvlr">Video</a>
+        - [ ] <code>var</code> <a href="https://youtu.be/dzEieWaOJE0">Video</a>
+        - [ ] <code>let</code> <a href="https://egghead.io/lessons/javascript-the-let-keyword-in-es6?af=5buvlr">Video</a>
+        - [ ] <code>const</code> <a href="https://egghead.io/lessons/javascript-const-declarations-in-es6-es2015">Video</a></li>
+<li>[ ] Data types <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Data_structures">Article</a>
+        - [ ] String
+        - [ ] Boolean
+        - [ ] Number
+        - [ ] null
+        - [ ] undefined
+        - [ ] Symbol <a href="https://youtu.be/4J5hnOCj69w">Video</a></li>
+<li>[ ] <code>typeof</code> operator <a href="https://www.freecodecamp.org/news/javascript-data-types-typeof-explained/">Article</a></li>
+<li>[ ] String functions
+        - [ ] <code>.concat</code> <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/concat">Article</a>
+        - [ ] <code>length</code> <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/length">Article</a>
+        - [ ] <code>toUpperCase</code> <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/toUpperCase">Article</a>
+        - [ ] <code>toLowerCase</code> <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/toLowerCase">Article</a>
+        - [ ] <code>subString</code> <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/substring">Article</a>
+        - [ ] <code>split</code> <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/split">Article</a>
+        - [ ] template literals <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Template_literals">Article</a> <a href="https://egghead.io/lessons/javascript-use-template-literals-to-embed-expressions-in-strings?af=5buvlr">Video</a></li>
+<li>[ ] Operators<ul>
+<li>[ ] Arithmetic Operators <a href="https://www.w3schools.com/jsref/jsref_operators.asp">Article</a><ul>
+<li>[ ] <code>+</code></li>
+<li>[ ] <code>-</code></li>
+<li>[ ] <code>/</code></li>
+<li>[ ] <code>*</code></li>
+<li>[ ] <code>++</code></li>
+<li>[ ] <code>--</code></li>
+<li>[ ] <code>%</code></li>
+</ul>
+</li>
+<li>[ ] Assignment Operators <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Expressions_and_Operators#assignment_operators"> Article </a><ul>
+<li>[ ] <code>=</code> <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Assignment">Article</a></li>
+</ul>
+</li>
+<li>[ ] <code>&lt;</code></li>
+<li>[ ] <code>&gt;</code></li>
+<li>[ ] <code>&lt;=</code></li>
+<li>[ ] <code>&gt;=</code></li>
+<li>[ ] <code>==</code></li>
+<li>[ ] <code>===</code></li>
+<li>[ ] <code>&amp;&amp;</code></li>
+<li>[ ] <code>||</code></li>
+<li>[ ] <code>Ternary operators ? , :</code> <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Conditional_Operator">Article</a></li>
+</ul>
+</li>
+<li>[ ] Loops <a href="https://www.freecodecamp.org/news/javascript-loops-explained-for-loop-for/">Article</a><ul>
+<li>[ ] <code>for</code> <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/for">Article</a></li>
+<li>[ ] <code>while</code> <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/while">Article</a></li>
+</ul>
+</li>
+<li>[ ] Conditionals<ul>
+<li>[ ] <code>if... else</code> <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/if...else">Article</a></li>
+<li>[ ] <code>switch</code> <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/switch">Article</a></li>
+</ul>
+</li>
+<li>[ ] Array <a href="https://www.javascripttutorial.net/javascript-array/">Article</a><ul>
+<li>[ ] Accessing elements <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array#accessing_array_elements">Article</a></li>
+<li>[ ] <code>length</code> <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/length">Article</a></li>
+<li>[ ] Array Helper Methods <a href="https://guptstagram.medium.com/es6-array-helper-methods-54bec9066b9c">Article</a>  <a href="https://youtu.be/R8rmfD9Y5-c">Video</a></li>
+<li>[ ] Looping through elements<ul>
+<li>[ ] <code>map</code> <a href="https://www.freecodecamp.org/news/javascript-map-how-to-use-the-js-map-function-array-method/">Article</a></li>
+<li>[ ] <code>forEach</code> <a href="https://www.freecodecamp.org/news/javascript-foreach-how-to-loop-through-an-array-in-js/">Article</a></li>
+</ul>
+</li>
+<li>[ ] <code>slice</code> <a href="https://www.freecodecamp.org/news/lets-clear-up-the-confusion-around-the-slice-splice-split-methods-in-javascript-8ba3266c29ae/">Article</a> <a href="https://youtu.be/t1qDSAUclzI">Video</a></li>
+<li>[ ] <code>splice</code> <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/splice">Article</a> <a href="https://youtu.be/t1qDSAUclzI">Video</a></li>
+<li>[ ] <code>filter</code> <a href="https://egghead.io/lessons/javascript-filter-an-array-with-truthy-values?af=5buvlr">Video</a></li>
+<li>[ ] <code>push</code> <a href="https://egghead.io/lessons/javascript-add-elements-onto-an-array-with-push?af=5buvlr">Video</a></li>
+<li>[ ] <code>pop</code> <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/pop">Article</a></li>
+<li>[ ] <code>shift</code>, <code>unshift</code> <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/shift">Article</a></li>
+<li>[ ] <code>isArray</code> <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/isArray">Article</a></li>
+<li>[ ] <code>indexOf</code> <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/indexOf">Article</a> <a href="https://egghead.io/lessons/javascript-check-if-a-value-is-in-an-array-with-indexof?af=5buvlr">Video</a></li>
+<li>[ ] <code>from</code> <a href="https://egghead.io/lessons/javascript-converting-an-array-like-object-into-an-array-with-array-from?af=5buvlr">Video</a></li>
+<li>[ ] Rest and Spread <a href="https://youtu.be/DoIGxx7P-ps">Video</a></li>
+</ul>
+</li>
+<li>[ ] Object <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Working_with_Objects">Article</a><ul>
+<li>[ ] Creating an object <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Working_with_Objects#creating_new_objects">Article</a></li>
+<li>[ ] Accessing properties <a href="https://dmitripavlutin.com/access-object-properties-javascript/">Article</a></li>
+<li>[ ] Reference and Value <a href="https://youtu.be/-hBJz2PPIVE">Video</a></li>
+<li>[ ] Object destructuring <a href="https://dmitripavlutin.com/javascript-object-destructuring/">Article</a></li>
+<li>[ ] <code>Object.keys</code> <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/keys">Article</a></li>
+<li>[ ] <code>Object.getOwnPropertyNames</code> <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/getOwnPropertyNames">Article</a></li>
+<li>[ ] Looping through properties of an object</li>
+<li>[ ] <code>for... of</code> <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/for...of">Article</a></li>
+<li>[ ] <code>for...in</code> <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/for...in">Article</a></li>
+<li>[ ] <code>forEach</code>, <code>.keys</code> <a href="https://masteringjs.io/tutorials/fundamentals/foreach-object">Article</a></li>
+<li>[ ] <code>.hasOwnProperty</code> <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/hasOwnProperty">Article</a></li>
+</ul>
+</li>
+<li>[ ] Functions <a href="https://javascript.info/function-basics">Article</a> <a href="https://www.youtube.com/watch?v=N8ap4k_1QEQ&amp;ab_channel=ProgrammingwithMosh">Video</a><ul>
+<li>[ ] Named functions <a href="https://javascript.info/function-basics#function-naming">Article</a></li>
+<li>[ ] Function expressions <a href="https://javascript.info/function-expressions">Article</a></li>
+<li>[ ] Arrow functions <code>() =&gt; { }</code> <a href="https://javascript.info/arrow-functions-basics">Article</a></li>
+<li>[ ] IIFE - Immediately Invoked Function Expressions <a href="https://flaviocopes.com/javascript-iife/">Article</a> <a href="https://youtu.be/3cbiZV4H22c">Video</a></li>
+</ul>
+</li>
+<li>[ ] <code>this</code> keyword <a href="https://egghead.io/courses/understand-javascript-s-this-keyword-in-depth?af=5buvlr">Video</a></li>
+<li>[ ] ES6 Classes <a href="https://www.youtube.com/watch?v=bq_jZY6Skto&amp;ab_channel=freeCodeCamp.org">Video</a><ul>
+<li>[ ] <code>constructor()</code></li>
+<li>[ ] inherting classes</li>
+</ul>
+</li>
+<li>[ ] Prototypal inheritance <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Inheritance_and_the_prototype_chain">Article</a> <a href="https://www.educative.io/blog/understanding-and-using-prototypal-inheritance-in-javascript">Article</a> <a href="https://egghead.io/lessons/javascript-understanding-prototypal-inheritance-within-javascript?af=5buvlr">Video</a><ul>
+<li>[ ] Inheriting properties</li>
+<li>[ ] Extending properties</li>
+<li>[ ] Accessing properties and methods</li>
+</ul>
+</li>
+<li>[ ] <code>setTimeout</code> <a href="https://www.youtube.com/watch?v=z9lJb4D3nJY&amp;ab_channel=CodewithAniaKub%C3%B3w">Video</a></li>
+<li>[ ] <code>alert</code> <a href="https://www.educative.io/edpresso/how-to-use-the-alert-method-in-javascript">Article</a></li>
+<li>[ ] JSON objects <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/JSON">Article</a><ul>
+<li>[ ] <code>JSON.stringify</code> <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/JSON/stringify">Article</a></li>
+<li>[ ] <code>JSON.parse</code> <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/JSON/parse">Article</a></li>
+</ul>
+</li>
+</ul>
+<h4 id="web-page-and-javascript">Web page and JavaScript</h4>
+<p><a href="https://youtube.com/playlist?list=PLEcLwwG6Ei_g3VbCg-Q6NEF7UCXlyOqec">Playlist</a>
+   - [ ] <code>document.getElementById</code>
+   - [ ] <code>document.getElementsByTagName</code>
+   - [ ] <code>document.getElementsByClassName</code>
+   - [ ] <code>document.getElementsByName</code>
+   - [ ] <code>document.querySelector</code>
+   - [ ] <code>document.querySelectorAll</code>
+   - [ ] <code>.createElement</code>
+   - [ ] <code>.innerHTML</code>
+   - [ ] <code>.innerText</code>
+   - [ ] <code>.append()</code>
+   - [ ] <code>.remove()</code>
+   - [ ] <code>.appendChild</code>
+   - [ ] <code>.style</code>
+   - [ ] <code>events</code>
+     - [ ] <code>.addEventListener</code>
+     - [ ] <code>.removeEventListener</code>
+     - [ ] <code>event.preventDefault</code></p>
+<h4 id="web-fundamentals">Web fundamentals</h4>
+<ul>
+<li>[ ] How does the web work? <a href="https://developer.mozilla.org/en-US/docs/Learn/Common_questions/How_does_the_Internet_work">Article</a></li>
+<li>[ ] How does a web browser work? <a href="https://medium.com/@monica1109/what-happens-when-i-type-any-url-in-the-browser-3719c6357da2">Article</a></li>
+<li>[ ] HTTP basics <a href="https://www.youtube.com/watch?v=t3xrHaqX2tc&amp;ab_channel=OracleDevelopers">Video</a><ul>
+<li>[ ] headers</li>
+<li>[ ] request</li>
+<li>[ ] response</li>
+<li>[ ] verbs: PUT, POST, DELETE, PATCH, POST</li>
+</ul>
+</li>
+<li>[ ] What is an API? <a href="https://www.youtube.com/watch?v=Yzx7ihtCGBs&amp;ab_channel=CodeWithChris">Video</a><ul>
+<li>[ ] What is REST API? <a href="https://www.youtube.com/watch?v=lsMQRaeKNDk&amp;ab_channel=IBMCloud">Video</a> <a href="https://www.smashingmagazine.com/2018/01/understanding-using-rest-api/">Article</a></li>
+<li>[ ] What is GraphQL API? <a href="https://www.youtube.com/watch?v=VjXb3PRL9WI&amp;ab_channel=LevelUpTuts">Video</a> <a href="https://medium.com/devgorilla/what-is-graphql-f0902a959e4">Article</a> <a href="https://frontendhappyhour.com/episodes/no-rest-with-quintessential-libations-graphql/">Podcast</a></li>
+</ul>
+</li>
+<li>[ ] What are CRUD operations? <a href="https://www.codecademy.com/articles/what-is-crud">Article</a>  - [ ] What are cookies? <a href="https://www.freecodecamp.org/news/everything-you-need-to-know-about-cookies-for-web-development/">Article</a><a href="https://www.youtube.com/watch?v=rdVPflECed8&amp;ab_channel=CreateaProWebsite">Video</a><ul>
+<li>[ ] Getting and setting cookies <a href="https://javascript.info/cookie">Article</a></li>
+</ul>
+</li>
+<li>[ ] What is local storage? <a href="https://www.smashingmagazine.com/2010/10/local-storage-and-how-to-use-it/">Article</a></li>
+<li>[ ] What is session storage? <a href="https://www.javascripttutorial.net/web-apis/javascript-sessionstorage/">Article</a></li>
+<li>[ ] What is a domain name? <a href="https://www.youtube.com/watch?v=Y4cRx19nhJk&amp;ab_channel=CreateaProWebsite">Video</a></li>
+<li>[ ] What is DNS lookup? <a href="https://www.youtube.com/watch?v=Rck3BALhI5c&amp;ab_channel=Techquickie">Video</a></li>
+<li>[ ] What is web hosting? <a href="https://www.youtube.com/watch?v=H8oAvyqQwew&amp;ab_channel=CreateaProWebsite">Video</a></li>
+<li>[ ] What is CORS? <a href="https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS">Article</a> <a href="https://javascript.info/fetch-crossorigin">Article</a></li>
+<li>[ ] ARIA - What is accessibility? <a href="https://developer.mozilla.org/en-US/docs/Learn/Accessibility/What_is_accessibility">Article</a> <a href="https://www.youtube.com/watch?v=HtTyRajRuyY&amp;list=PLNYkxOF6rcICWx0C9LVWWVqvHlYJyqw7g&amp;ab_channel=GoogleChromeDevelopers">Video</a></li>
+</ul>
+<h2 id="step-up">Step Up</h2>
+<h4 id="css_1">CSS</h4>
+<ul>
+<li>[ ] animations <a href="https://youtu.be/zHUpx90NerM">Video</a><ul>
+<li>[ ] transition property</li>
+<li>[ ] <code>@keyframes</code></li>
+<li>[ ] animation property - <code>name</code>, <code>duration</code>, <code>timing-function</code>, <code>delay</code>, <code>iteration-count</code>, <code>direction</code></li>
+</ul>
+</li>
+<li>[ ] flexbox</li>
+<li>[ ] grid</li>
+<li>[ ] media query to build responsive sites</li>
+<li>[ ] CSS Specificity <a href="https://css-tricks.com/specifics-on-css-specificity/">Article</a></li>
+</ul>
+<h4 id="javascript_1">JavaScript</h4>
+<ul>
+<li>[ ] <code>bind</code>, <code>call</code>, <code>apply</code> <a href="https://youtu.be/OSjTmET11OQ">Video</a></li>
+<li>[ ] Scopes</li>
+<li>[ ] Hoisting <a href="https://youtu.be/Fnlnw8uY6jo">Video</a></li>
+<li>[ ] Temporal Dead Zone <a href="https://youtu.be/BNC6slYCj50">Video</a></li>
+<li>[ ] Event bubbling <a href="https://youtu.be/aVSf0b1jVKk">Video</a></li>
+<li>[ ] Event Capturing <a href="https://youtu.be/aVSf0b1jVKk">Video</a></li>
+<li>[ ] Promises <a href="https://youtu.be/_8gHHBlbziw">Video</a></li>
+<li>[ ] Callbacks</li>
+<li>[ ] async / await</li>
+<li>[ ] AJAX (XMLHttpRequest)</li>
+<li>[ ] Generators</li>
+<li>[ ] Making API calls using <code>fetch</code>, <code>axios</code> <a href="https://youtu.be/6LyagkoRWYA">Video</a></li>
+<li>[ ] Event loop <a href="https://youtu.be/8aGhZQkoFbQ">Video</a></li>
+<li>[ ] Closures <a href="https://eloquentjavascript.net/03_functions.html#h_hOd+yVxaku">Article</a> <a href="https://youtu.be/qikxEIxsXco">Video</a></li>
+<li>[ ] Service Workers</li>
+<li>[ ] Browser events <a href="https://github.com/shrutikapoor08/blogs/blob/master/JSByte/HowToHandleEvents.MD">Article</a></li>
+<li>[ ] Forms<ul>
+<li>Form properties and methods</li>
+<li>Form events: focus, blur, submit</li>
+<li>Form validation <a href="https://github.com/shrutikapoor08/blogs/blob/master/JSByte/FormValidation.MD">Article</a></li>
+</ul>
+</li>
+</ul>
+<h4 id="react">React</h4>
+<ul>
+<li>[ ] Prerequisites <a href="https://www.taniarascia.com/getting-started-with-react/#prerequisites">Article</a></li>
+<li>[ ] What is React? <a href="https://www.taniarascia.com/getting-started-with-react/#what-is-react">Article</a> <a href="https://www.youtube.com/playlist?list=PL4cUxeGkcC9ij8CfkAY2RAGb-tmkNwQHG">Playlist</a></li>
+<li>[ ] Setup and Installation <a href="https://www.taniarascia.com/getting-started-with-react/#setup-and-installation">Article</a></li>
+<li>[ ] JSX: JavaScript + XML <a href="https://www.taniarascia.com/getting-started-with-react/#jsx-javascript--xml">Article</a> <a href="https://youtu.be/BS9g6Z3lbBU">Video</a></li>
+<li>[ ] Functional and Class Components <a href="https://www.taniarascia.com/getting-started-with-react/#components">Article</a></li>
+<li>[ ] Props <a href="https://www.taniarascia.com/getting-started-with-react/#props">Article</a></li>
+<li>[ ] State <a href="https://www.taniarascia.com/getting-started-with-react/#state">Article</a></li>
+<li>[ ] Lifecycle Events</li>
+<li>[ ] React Hooks <a href="https://www.youtube.com/playlist?list=PLZlA0Gpn_vH8EtggFGERCwMY5u5hOjf-h">Playlist</a></li>
+<li>[ ] Submitting Form <a href="https://www.taniarascia.com/getting-started-with-react/#submitting-form-data">Article</a></li>
+<li>[ ] Pulling in API Data <a href="https://www.taniarascia.com/getting-started-with-react/#pulling-in-api-data">Article</a></li>
+<li>[ ] Building and Deploying your React App <a href="https://www.taniarascia.com/getting-started-with-react/#building-and-deploying-a-react-app">Article</a></li>
+<li>[ ] The Beginner's Guide to React by Kent C. Dodds <a href="https://egghead.io/courses/the-beginner-s-guide-to-react">Video</a></li>
+</ul>
+<h4 id="front-end-library">Front end library:</h4>
+<ul>
+<li>[ ] Redux <a href="https://youtu.be/CVpUuw9XSjY">Video</a></li>
+</ul>
+<h4 id="apis">APIs</h4>
+<ul>
+<li>[ ] REST</li>
+<li>[ ] GraphQL</li>
+</ul>
+<h4 id="debugging-tools">Debugging Tools</h4>
+<ul>
+<li>[ ] Browser Dev tools <a href="https://developer.mozilla.org/en-US/docs/Learn/Common_questions/What_are_browser_developer_tools">Article</a><ul>
+<li>[ ] Chrome Dev Tools <a href="https://www.youtube.com/watch?v=H0XScE08hy8&amp;ab_channel=GoogleChromeDevelopers">Video</a> <a href="https://www.youtube.com/watch?v=e1gAyQuIFQo&amp;ab_channel=GoogleChromeDevelopers">Video</a></li>
+<li>[ ] Firefox Dev Tools <a href="https://www.youtube.com/watch?v=Sp9ZfSvpf7A&amp;ab_channel=MozillaDeveloper">Video</a></li>
+</ul>
+</li>
+</ul>
+<h4 id="ux-for-web-developers">UX for Web Developers</h4>
+<ol>
+<li><strong>Software UX Designers use</strong></li>
+</ol>
+<p>UX designers use the following software for the designing. As a UI developer, you will get either the files of design or style guide. Do review them.</p>
+<ul>
+<li>Figma</li>
+<li>Sketch App (Works only on Mac)</li>
+<li>
+<p>Photoshop</p>
+</li>
+<li>
+<p><strong>Colors</strong></p>
+</li>
+</ul>
+<p>As a web developer, you should know that the designers use HEXA values of the color code. If you want to use RGBA (Red Green Blue Alpha) in your code then you need to ask the designers to provide that</p>
+<ol>
+<li><strong>Units</strong></li>
+</ol>
+<p>As a web developer, you should know that designers use <code>px</code> as default units while designing. If you are using <code>em</code> or <code>rem</code>, you need to discuss this with your designer and ask about the base font size. This base font size will help you to convert from <code>px</code> to <code>em/rem</code></p>
+<ol>
+<li><strong>Consistency</strong></li>
+</ol>
+<p>As a web developer make sure that the designs have consistency in the size, colors, and UX. Eg: the font size and color of the headings on every page should be the same, the body's font size should be the same.</p>
+<p>You should review the designs given by the designers to make sure the consistency is there.</p>
+<ol>
+<li><strong>Styleguide</strong></li>
+</ol>
+<p>If you have a big project ask your UX team to share the style guide. Style- guide is the information about the color palette, font size, heading style, etc. This becomes the base guidelines for developers and testers.</p>
+<ol>
+<li><strong>Informative States</strong></li>
+</ol>
+<p>While working on the forms it is important to ask the designers about the error, success, or informative states design. Most of the time UX folks miss these states.</p>
+<ol>
+<li><strong>Wireframes</strong></li>
+</ol>
+<p>It is important to have the wireframes to understand the flow of the user's journey. Wireframes are like blueprint of the application.</p>
+<h2 id="suggested-learning-process">Suggested learning process</h2>
+<ol>
+<li><strong>SKILLS</strong> Learn the fundamentals from a resource of your choice:</li>
+<li>HTML</li>
+<li>CSS</li>
+<li>JavaScript.</li>
+<li><strong>PROJECT</strong> Build a portfolio web page using the skills you learnt so far - JS, HTML, CSS. The web page should have the following:<ol>
+<li>Add your name, photo, bio using semantic HTML</li>
+<li>Setup sections for projects. We will fill these projects as we go. The projects will have an image, description and a link. Set these up with <a href="https://loremipsum.io/">lorem ipsum text</a> for now.</li>
+</ol>
+</li>
+<li><strong>SKILLS</strong> <a href="https://youtu.be/8JJ101D3knE">Learn git and version control.</a>.</li>
+<li><strong>PROJECT</strong></li>
+<li>Add your portfolio to GitHub.</li>
+<li>Step Up Assignment: Setup Github pages to host your portfolio. <a href="https://www.youtube.com/watch?v=794yrQWAOD8&amp;ab_channel=iEatWebsites">Here's an instructional video</a></li>
+<li><strong>SKILLS</strong> Step up your JS and CSS knowledge</li>
+<li><strong>PROJECT</strong> Make your portfolio mobile friendly and responsive.</li>
+<li><strong>PROJECT</strong> Getting ready for job interviews<ol>
+<li>Practice interview questions on <a href="https://www.interviewcake.com/">InterviewCake</a>.</li>
+</ol>
+</li>
+<li>Practice interviews questions on <a href="https://leetcode.com/">Leetcode</a>. Start with easy and slowly work your way up.</li>
+<li><strong>SKILLS</strong> Step up challenge - learn a front-end framework.
+   React, Vue and Angular are the top front-end frameworks in 2021. If you were to pick one, I would recommend <a href="https://reactjs.org/">React</a>. Lots of companies use React in production.</li>
+<li><strong>PROJECT</strong>: Implement the framework. - build an inspiration. Add this to your portfolio. Tasks:<ol>
+<li>Fetch an API of your choice.</li>
+<li>Render data in your app.</li>
+<li>Implement search functionality.</li>
+<li>Implement auto-complete functionality.</li>
+</ol>
+</li>
+<li><strong>SKILLS</strong> Step up challenge: Learn a library for the framework.</li>
+<li>Learn a state management library: Redux / React context<ol>
+<li>Learn a CSS library - SASS</li>
+</ol>
+</li>
+<li><strong>PROJECT</strong> Implement your next inspiration idea using the library. Add to your portfolio.</li>
+<li><strong>SKILLS</strong> Learn a testing framework : Build test coverage. Add to your portfolio.</li>
+<li><strong>CAREER</strong> Get a freelance job using your portfolio.</li>
+<li><strong>CAREER</strong> Find a mentor. Get feedback on your skills and portfolio.</li>
+<li><strong>SKILLS</strong> Step up challenge - learn the other side of stack(front-end vs back-end)</li>
+<li><strong>CAREER</strong> Apply for a full time job. You are ready.</li>
+<li><strong>SKILLS</strong> Continue iterating.</li>
+<li><strong>CAREER</strong> Prepare for interviews</li>
+</ol>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+    
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+    <div class="md-copyright__highlight">
+      Copyright &copy; 2024 No Clocks, LLC
+    </div>
+  
+  
+</div>
+      
+        <div class="md-social">
+  
+    
+    
+    
+    
+      
+      
+    
+    <a href="https://github.com/noclocks" target="_blank" rel="noopener" title="github.com" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512"><!--! Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2023 Fonticons, Inc.--><path d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z"/></svg>
+    </a>
+  
+    
+    
+    
+    
+      
+      
+    
+    <a href="https://twitter.com/noclocksdev" target="_blank" rel="noopener" title="twitter.com" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2023 Fonticons, Inc.--><path d="M459.37 151.716c.325 4.548.325 9.097.325 13.645 0 138.72-105.583 298.558-298.558 298.558-59.452 0-114.68-17.219-161.137-47.106 8.447.974 16.568 1.299 25.34 1.299 49.055 0 94.213-16.568 130.274-44.832-46.132-.975-84.792-31.188-98.112-72.772 6.498.974 12.995 1.624 19.818 1.624 9.421 0 18.843-1.3 27.614-3.573-48.081-9.747-84.143-51.98-84.143-102.985v-1.299c13.969 7.797 30.214 12.67 47.431 13.319-28.264-18.843-46.781-51.005-46.781-87.391 0-19.492 5.197-37.36 14.294-52.954 51.655 63.675 129.3 105.258 216.365 109.807-1.624-7.797-2.599-15.918-2.599-24.04 0-57.828 46.782-104.934 104.934-104.934 30.213 0 57.502 12.67 76.67 33.137 23.715-4.548 46.456-13.32 66.599-25.34-7.798 24.366-24.366 44.833-46.132 57.827 21.117-2.273 41.584-8.122 60.426-16.243-14.292 20.791-32.161 39.308-52.628 54.253z"/></svg>
+    </a>
+  
+    
+    
+    
+    
+      
+      
+    
+    <a href="https://linkedin.com/company/noclocks" target="_blank" rel="noopener" title="linkedin.com" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2023 Fonticons, Inc.--><path d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3zM135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5zm282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9V416z"/></svg>
+    </a>
+  
+    
+    
+    
+    
+      
+      
+    
+    <a href="https://youtube.com/noclocks" target="_blank" rel="noopener" title="youtube.com" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><!--! Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2023 Fonticons, Inc.--><path d="M549.655 124.083c-6.281-23.65-24.787-42.276-48.284-48.597C458.781 64 288 64 288 64S117.22 64 74.629 75.486c-23.497 6.322-42.003 24.947-48.284 48.597-11.412 42.867-11.412 132.305-11.412 132.305s0 89.438 11.412 132.305c6.281 23.65 24.787 41.5 48.284 47.821C117.22 448 288 448 288 448s170.78 0 213.371-11.486c23.497-6.321 42.003-24.171 48.284-47.821 11.412-42.867 11.412-132.305 11.412-132.305s0-89.438-11.412-132.305zm-317.51 213.508V175.185l142.739 81.205-142.739 81.201z"/></svg>
+    </a>
+  
+    
+    
+    
+    
+      
+      
+    
+    <a href="https://facebook.com/noclocksdev" target="_blank" rel="noopener" title="facebook.com" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2023 Fonticons, Inc.--><path d="M512 256C512 114.6 397.4 0 256 0S0 114.6 0 256c0 120 82.7 220.8 194.2 248.5V334.2h-52.8V256h52.8v-33.7c0-87.1 39.4-127.5 125-127.5 16.2 0 44.2 3.2 55.7 6.4V172c-6-.6-16.5-1-29.6-1-42 0-58.2 15.9-58.2 57.2V256h83.6l-14.4 78.2H287v175.9C413.8 494.8 512 386.9 512 256z"/></svg>
+    </a>
+  
+    
+    
+    
+    
+      
+      
+    
+    <a href="https://noclocks.slack.com" target="_blank" rel="noopener" title="noclocks.slack.com" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2023 Fonticons, Inc.--><path d="M94.12 315.1c0 25.9-21.16 47.06-47.06 47.06S0 341 0 315.1c0-25.9 21.16-47.06 47.06-47.06h47.06v47.06zm23.72 0c0-25.9 21.16-47.06 47.06-47.06s47.06 21.16 47.06 47.06v117.84c0 25.9-21.16 47.06-47.06 47.06s-47.06-21.16-47.06-47.06V315.1zm47.06-188.98c-25.9 0-47.06-21.16-47.06-47.06S139 32 164.9 32s47.06 21.16 47.06 47.06v47.06H164.9zm0 23.72c25.9 0 47.06 21.16 47.06 47.06s-21.16 47.06-47.06 47.06H47.06C21.16 243.96 0 222.8 0 196.9s21.16-47.06 47.06-47.06H164.9zm188.98 47.06c0-25.9 21.16-47.06 47.06-47.06 25.9 0 47.06 21.16 47.06 47.06s-21.16 47.06-47.06 47.06h-47.06V196.9zm-23.72 0c0 25.9-21.16 47.06-47.06 47.06-25.9 0-47.06-21.16-47.06-47.06V79.06c0-25.9 21.16-47.06 47.06-47.06 25.9 0 47.06 21.16 47.06 47.06V196.9zM283.1 385.88c25.9 0 47.06 21.16 47.06 47.06 0 25.9-21.16 47.06-47.06 47.06-25.9 0-47.06-21.16-47.06-47.06v-47.06h47.06zm0-23.72c-25.9 0-47.06-21.16-47.06-47.06 0-25.9 21.16-47.06 47.06-47.06h117.84c25.9 0 47.06 21.16 47.06 47.06 0 25.9-21.16 47.06-47.06 47.06H283.1z"/></svg>
+    </a>
+  
+    
+    
+    
+    
+      
+      
+    
+    <a href="https://instagram.com/noclocksdev" target="_blank" rel="noopener" title="instagram.com" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2023 Fonticons, Inc.--><path d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z"/></svg>
+    </a>
+  
+    
+    
+    
+    
+      
+      
+    
+    <a href="https://hub.docker.com/u/noclocks" target="_blank" rel="noopener" title="hub.docker.com" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512"><!--! Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2023 Fonticons, Inc.--><path d="M349.9 236.3h-66.1v-59.4h66.1v59.4zm0-204.3h-66.1v60.7h66.1V32zm78.2 144.8H362v59.4h66.1v-59.4zm-156.3-72.1h-66.1v60.1h66.1v-60.1zm78.1 0h-66.1v60.1h66.1v-60.1zm276.8 100c-14.4-9.7-47.6-13.2-73.1-8.4-3.3-24-16.7-44.9-41.1-63.7l-14-9.3-9.3 14c-18.4 27.8-23.4 73.6-3.7 103.8-8.7 4.7-25.8 11.1-48.4 10.7H2.4c-8.7 50.8 5.8 116.8 44 162.1 37.1 43.9 92.7 66.2 165.4 66.2 157.4 0 273.9-72.5 328.4-204.2 21.4.4 67.6.1 91.3-45.2 1.5-2.5 6.6-13.2 8.5-17.1l-13.3-8.9zm-511.1-27.9h-66v59.4h66.1v-59.4zm78.1 0h-66.1v59.4h66.1v-59.4zm78.1 0h-66.1v59.4h66.1v-59.4zm-78.1-72.1h-66.1v60.1h66.1v-60.1z"/></svg>
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+      <div class="md-progress" data-md-component="progress" role="progressbar"></div>
+    
+    
+    <script id="__config" type="application/json">{"base": "../../..", "features": ["navigation.instant", "navigation.instant.prefetch", "navigation.instant.progress", "navigation.tracking", "navigation.path", "navigation.prune", "navigation.indexes", "navigation.sections", "navigation.footer", "toc.follow", "toc.integrate", "search.suggest", "search.highlight", "search.share", "content.action.edit"], "search": "../../../assets/javascripts/workers/search.b8dbb3d2.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
+    
+    
+      <script src="../../../assets/javascripts/bundle.1e8ae164.min.js"></script>
+      
+    
+  </body>
+</html>
