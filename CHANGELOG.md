@@ -27,6 +27,7 @@
 
 ### Features
 
+- Add new policy
 - Add testimonials widget HTML snippet template
 - Add MkDocs GHA
 - Add mkdocs
